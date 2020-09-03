@@ -56,12 +56,9 @@
 		936A88C2250169C500C39B81 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				936A88C3250169C500C39B81 /* AppDelegate.swift */,
-				936A88C5250169C500C39B81 /* SceneDelegate.swift */,
-				936A88C7250169C500C39B81 /* ContentView.swift */,
-				936A88C9250169C600C39B81 /* Assets.xcassets */,
-				936A88CE250169C600C39B81 /* LaunchScreen.storyboard */,
-				936A88D1250169C600C39B81 /* Info.plist */,
+				936A88D725016EC300C39B81 /* Resources */,
+				936A88D92501729800C39B81 /* View */,
+				936A88D82501728E00C39B81 /* Controller */,
 				936A88CB250169C600C39B81 /* Preview Content */,
 			);
 			path = MyFirstApp;
@@ -73,6 +70,33 @@
 				936A88CC250169C600C39B81 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		936A88D725016EC300C39B81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				936A88C3250169C500C39B81 /* AppDelegate.swift */,
+				936A88C5250169C500C39B81 /* SceneDelegate.swift */,
+				936A88C9250169C600C39B81 /* Assets.xcassets */,
+				936A88D1250169C600C39B81 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		936A88D82501728E00C39B81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				936A88CE250169C600C39B81 /* LaunchScreen.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		936A88D92501729800C39B81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				936A88C7250169C500C39B81 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyFirstApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyFirstApp/Info.plist;
+				INFOPLIST_FILE = MyFirstApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyFirstApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyFirstApp/Info.plist;
+				INFOPLIST_FILE = MyFirstApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
